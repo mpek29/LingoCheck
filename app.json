@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "LingoCheck",
+    "slug": "lingocheck",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "assetBundlePatterns": [
+      "assets/**"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.lingomatch.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0F172A"
+      },
+      "package": "com.lingomatch.app"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": []
+  }
+}
