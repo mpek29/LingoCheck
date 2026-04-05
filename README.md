@@ -7,6 +7,33 @@ Load CSV datasets, swipe through entries to approve or reject them, edit correct
 
 ---
 
+## Using a release (no installation required)
+
+If you just want to use LingoCheck without setting up a development environment, download the pre-built release from the [GitHub Releases page](../../releases/latest).
+
+### 1. Download
+
+On the release page, download `lingocheck-web-release.zip` and extract it anywhere on your machine.
+
+### 2. Run
+
+You need a simple HTTP server to open the app — browsers block local file access for security reasons.
+
+```bash
+cd lingocheck-web-release/dist
+python3 -m http.server 8080
+```
+
+Then open your browser at `http://localhost:8080`.
+
+### 3. Use
+
+- Tap **+ Add CSV** to load your dataset from your computer
+- Swipe cards to approve or reject entries
+- Your datasets and all your choices are saved automatically in the browser and restored on next launch
+
+---
+
 ## Web app — Ubuntu setup
 
 ### Prerequisites
